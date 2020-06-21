@@ -1,0 +1,10 @@
+server:
+  port: 4002
+spring:
+  application:
+    name: admin
+  config:
+        uri: http://localhost:3004
+        name: admin
+        profile: dev
+
